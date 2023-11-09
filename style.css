@@ -19,6 +19,10 @@ h1.title{
     border-radius: 30px;
   }
 
+  h2 {
+    font-size: 50;
+  }
+
 body {
   margin-top: 150px;
   font-family: monospace;
@@ -37,7 +41,8 @@ img {
 }
 
 p {
-  margin: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
   line-height: 50px;
 }
 
