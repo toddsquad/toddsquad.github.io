@@ -1,0 +1,94 @@
+* {
+  text-align: center;
+  background-color: #DAFFFB;
+  color: #04364A;
+  font-size: 25px;
+}
+
+h1.title{
+    color: #04364A;
+    font-size: 50px;
+    padding: 25px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 18%;
+    width: 60%;
+    height: 50px;
+    border: 5px solid #04364A;
+    border-radius: 30px;
+  }
+
+body {
+  margin-top: 150px;
+  font-family: monospace;
+}
+
+#team-pic {
+  width: 800px;
+}
+
+img {
+  padding: 5px;
+  border: 5px solid #64CCC5;
+  border-radius: 40px;
+  margin: 10px;
+  width: 300px;
+}
+
+p {
+  margin: 40px;
+  line-height: 50px;
+}
+
+.profiles-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.profiles-flex-container div{
+  padding: 40px 20px;
+}
+
+.headshots-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-bottom: 100px;
+}
+
+.headshots-flex-container * {
+  padding: 0px;
+  margin: 5px;
+}
+
+a:link {
+  color: #DAFFFB;
+  background-color: #176B87;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:visited {
+  color: #DAFFFB;
+  background-color: #176B87;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #176B87;
+  background-color: #DAFFFB;
+  border: 2px solid #176B87;
+}
+
+a:active {
+  color: #176B87;
+  background-color: #DAFFFB;
+  border: 2px solid #176B87;
+}
