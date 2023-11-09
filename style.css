@@ -19,17 +19,13 @@ h1.title{
     border-radius: 30px;
   }
 
-  h2 {
-    font-size: 50;
-  }
+h2 {
+    font-size: 45px;
+}
 
 body {
   margin-top: 150px;
   font-family: monospace;
-}
-
-#team-pic {
-  width: 800px;
 }
 
 img {
@@ -46,6 +42,14 @@ p {
   line-height: 50px;
 }
 
+.welcome {
+  font-size: 35px;
+}
+
+#team-pic {
+  width: 800px;
+}
+
 .profiles-flex-container {
   display: flex;
   flex-direction: row;
@@ -56,6 +60,19 @@ p {
 
 .profiles-flex-container div{
   padding: 40px 20px;
+}
+
+.profile-title-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile-title-flex-container img{
+  width: 250px;
+  height: auto;
+  margin: 10px 100px;
 }
 
 .headshots-flex-container {
