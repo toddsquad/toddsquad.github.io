@@ -90,7 +90,7 @@ p {
   margin: 5px;
 }
 
-a:link {
+a.styled-link:link {
   color: #DAFFFB;
   background-color: #176B87;
   text-decoration: none;
@@ -98,20 +98,22 @@ a:link {
   border-radius: 10px;
 }
 
-a:visited {
+a.styled-link:visited {
   color: #DAFFFB;
   background-color: #176B87;
   text-decoration: none;
 }
 
-a:hover {
+a.styled-link:hover {
   color: #176B87;
   background-color: #DAFFFB;
   border: 2px solid #176B87;
 }
 
-a:active {
+a.styled-link:active {
   color: #176B87;
   background-color: #DAFFFB;
   border: 2px solid #176B87;
 }
+
+
