@@ -1,8 +1,6 @@
 * {
-  text-align: center;
   background-color: #DAFFFB;
   color: #04364A;
-  font-size: 25px;
 }
 
 h1.title{
@@ -18,10 +16,13 @@ h1.title{
     border: 5px solid #04364A;
     border-radius: 30px;
     white-space: nowrap;
+    min-width: 550px;
+    text-align: center;
   }
 
 h2 {
     font-size: 45px;
+    text-align: center;
 }
 
 body {
@@ -35,20 +36,36 @@ img {
   border-radius: 40px;
   margin: 10px;
   width: 300px;
+
 }
 
-p {
+.paragraph p {
   margin-left: 200px;
   margin-right: 200px;
   line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  min-width: 800px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
 }
 
 .welcome {
   font-size: 35px;
+  text-align: center;
 }
 
 #team-pic {
   width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.bottom-link {
+  text-align: center;
 }
 
 .profiles-flex-container {
@@ -61,6 +78,7 @@ p {
 
 .profiles-flex-container div{
   padding: 40px 20px;
+  text-align: center;
 }
 
 .profile-title-flex-container {
@@ -82,12 +100,10 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: baseline;
-  padding-bottom: 100px;
 }
 
 .headshots-flex-container * {
-  padding: 0px;
-  margin: 5px;
+  margin: 10px;;
 }
 
 a.styled-link:link {
@@ -96,6 +112,7 @@ a.styled-link:link {
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
+  font-size: 25px;
 }
 
 a.styled-link:visited {
